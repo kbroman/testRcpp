@@ -2,6 +2,6 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 .addone <- function(x) {
-    .Call('testRcpp_addone', PACKAGE = 'testRcpp', x)
+    .Call(testRcpp_addone, x)
 }
 
