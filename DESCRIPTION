@@ -1,0 +1,14 @@
+Package: testRcpp
+Version: 0.1.1
+Date: 2017-07-12
+Title: Test Rcpp Register Routine Business
+Description: Skeleton package to test the whole register routines
+    business in Rcpp.
+Author: Karl W Broman <kbroman@biostat.wisc.edu>
+Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
+Imports:
+    Rcpp (>= 0.12.7)
+License: GPL-3
+LinkingTo: Rcpp
+LazyData: true
+RoxygenNote: 6.0.1
