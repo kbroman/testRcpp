@@ -2,7 +2,7 @@
 #include <Rcpp.h>
 using namespace Rcpp;
 
-// [[Rcpp::export(name=".addone")]]
+// [[Rcpp::export]]
 NumericVector addone(const NumericVector &x)
 {
     const int n = x.size();

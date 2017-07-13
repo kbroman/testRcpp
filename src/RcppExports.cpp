@@ -17,10 +17,7 @@ BEGIN_RCPP
 END_RCPP
 }
 
-RcppExport SEXP testRcpp_addone(SEXP);
-
 static const R_CallMethodDef CallEntries[] = {
-    {"testRcpp_.addone", (DL_FUNC) &testRcpp_.addone, 1},
     {"testRcpp_addone", (DL_FUNC) &testRcpp_addone, 1},
     {NULL, NULL, 0}
 };

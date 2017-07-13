@@ -14,5 +14,5 @@ add_one <-
     function(x)
 {
     # call the C++ function
-    .addone(x)
+    addone(x)
 }
