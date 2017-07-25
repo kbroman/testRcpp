@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // addone
 NumericVector addone(const NumericVector& x);
-RcppExport SEXP testRcpp_addone(SEXP xSEXP) {
+RcppExport SEXP _testRcpp_addone(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -17,11 +17,8 @@ BEGIN_RCPP
 END_RCPP
 }
 
-RcppExport SEXP testRcpp_addone(SEXP);
-
 static const R_CallMethodDef CallEntries[] = {
-    {"testRcpp_.addone", (DL_FUNC) &testRcpp_.addone, 1},
-    {"testRcpp_addone", (DL_FUNC) &testRcpp_addone, 1},
+    {"_testRcpp_addone", (DL_FUNC) &_testRcpp_addone, 1},
     {NULL, NULL, 0}
 };
 
